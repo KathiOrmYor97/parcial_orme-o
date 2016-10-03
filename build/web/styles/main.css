@@ -1,0 +1,167 @@
+/* The styles for the elements */
+body { 
+     background: #4f9cd0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+    width: 400px;
+}
+h1 {     
+    font-size: 300%;
+    color: white;
+    margin-bottom: .5em;    
+}
+h2 {     
+    font-size: 120%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+
+
+#comprar {
+    width: 2em;
+}
+
+
+/* The styles for the tables */
+table {
+    border: 1px solid #dedede;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    width: 50em;
+}
+th, td {
+    border: 1px solid #dedede;
+    text-align: left;
+    padding: .5em;
+    text-align: center;
+}
+    
+th{
+    
+    font-size:145%;
+    background-color: #4CAF50;
+    color:white;
+}
+tr,td:nth-child(even){
+    background-color: #f2f2f2;
+       
+                         
+    
+    
+}
+
+label {
+    float: left;
+    width: 7em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"], input[type="email"] {  /* An attribute selector */
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+}
+span {
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;    
+}
+br {
+    clear: both;
+}
+
+/* The styles for the classes */
+.pad_top {
+    padding-top: 0.25em;
+}
+.margin_left {
+    margin-left: 0.5em;
+}
+
+
+
+/* COMIENZO DE ESTILO LOGIN*/
+#content { margin-right: 280px;  } 
+.login {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+.login-header,
+.login p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.login-triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #f2c06b;
+}
+
+
+.login-header {
+  background: #f2c06b;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.login-container {
+  background: white;
+  padding: 12px;
+}
+.login p {
+  padding: 5px;
+}
+.login input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
+   width: 95%;
+}
+
+/* Text fields' focus effect */
+.login input[type="text"]:focus,
+.login input[type="password"]:focus {
+  border-color: #888;
+}
+
+
+.login input[type="submit"] {
+  background: #f2c06b;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: -8px;
+}
+
+.login input[type="submit"]:hover {
+  background:#B2DFDB;
+}
+
+/* Buttons' focus effect */
+.login input[type="submit"]:focus {
+  border-color: #05a;
+}
+
+/*  FIN DE ESTILO LOGIN*/
